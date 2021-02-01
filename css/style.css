@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+
+body{
+    
+    font-family: 'Montserrat', sans-serif;
+    
+    
+    
+}
+
+.clr{
+    clear:both;
+}
+
+.container{
+    width:100%;
+    max-width: 1119px;
+    margin:0 auto;
+   
+
+}
+
+header{
+    background-image: url('../img/header.png');
+    background-size:cover;
+    background-attachment: fixed;
+    height: 850px;
+    overflow: hidden;
+    
+    
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding:20px 20px;
+
+}
+
+nav ul.homelist{
+    list-style: none;
+    
+}
+
+nav ul.homelist li{
+    display: inline-block;
+}
+
+nav ul.homelist li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    margin:0 10px
+}
+
+nav ul.homelist li a:hover{
+    border-bottom: 2px solid white;
+}
+
+.controlhome{
+    display: flex;
+    justify-content: space-between;
+    padding: 96px 0;
+
+}
+
+.home-left h2{
+    text-transform: uppercase;
+    font-size:52px;
+    color: #fff;
+}
+
+.home-left p{
+    font-size:26px;
+    color:#fff;
+    margin:66px 0;
+
+}
+
+.homebtn {
+     display:flex;
+    align-items: center;
+    justify-content: center;
+    outline: 0;
+    border: 0;
+    background-color: #282828;
+    border-radius: 35px;
+    padding:px;
+    width: 368px;
+    height:56px;
+    cursor: pointer;
+}
+
+.homebtn span{
+    color: #fff;
+    display: inline-block;
+    padding: 10px;
+    font-size: 17px;
+
+}
+
+ .home-right img{
+     justify-content: center;
+ }
+
+ /* features */
+ .features{
+     height: 850px;
+ }
+
+ .feature-up{
+     text-align: center;
+     padding-top: 87px;
+     padding-bottom: 70px;
+ }
+
+ .feature-up h2{
+     color: #8a8a8a;
+     font-size: 52px;
+     padding-bottom: 46px;
+     font-weight: bold;
+ }
+
+.feature-up p{
+    font-size: 16px;
+    color: #3a3a3a;
+    line-height: 1.5;
+}
+
+.feature-down{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.feature-down .featurebrowse{
+    margin: 0 10px;
+}
+
+.feature-down .featurebrowse h4{
+    margin:35px 0;
+    font-weight: bold;
+    font-size: 22px;
+    color: #1a1a1a;
+}
+
+.feature-down .featurebrowse p{
+   color: #868686;
+   font-size: 18px;
+   justify-content: center;
+   line-height: 1.5;
+}
+
+
+
+
+/* clawn */
+
+.clawn{
+    height: 850px;
+    background-image: url('../img/clawn.png');
+    background-size: cover;
+}
+.clawn .tolocate{
+    padding-top: 187px;
+    padding-bottom: 169px;
+}
+
+
+
+.clawn h2{
+    font-size: 52px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.clawn h2 .redclr{
+    color: #f55150;
+}
+
+.clawn p{
+    font-size: 22px;
+    padding-top: 47px;
+    padding-bottom: 70px;
+    line-height: 1.5;
+    color: #585858;
+}
+
+.clawn button{
+    background-color: #d9332d;
+    padding: 12px 35px;
+    border-radius: 35px;
+    outline: 0;
+    border: 0;
+}
+
+.clawn button span{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+/* about */
+
+.about{
+    height: auto;
+    background-color: #2e2e38;
+}
+
+.about .location{
+   padding-top: 107px; 
+   padding-bottom: 153px;
+}
+
+.about .about-down{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 63px;
+}
+
+.about .about-down .posts{
+    color: #fff;
+}
+
+.about .about-down .posts h6{
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+
+.about .about-down .posts .rect {
+    display: flex;
+    padding:10px 0;
+}
+
+.about .about-down .posts .rect img{
+    margin-right: 10px;
+}
+
+.about .about-down .posts .rect span{
+    font-size: 15px;
+    color: #d5d5d7;
+}
+
+.about .about-down .tweets {
+    color: #fff;
+}
+
+.about .about-down .tweets h6{
+    font-size: 15px;
+    padding-bottom: 15px;
+    color: #fff;
+}
+
+.about .about-down .tweets .mini{
+    color:#d5d5d7;
+
+}
+
+.about .about-down .aboutme h6{
+    font-size: 15px;
+    padding-bottom: 15px;
+    color: #fff;
+}
+
+
+.about .about-down .aboutme p{
+    color: #909095;
+    line-height: 1.5;
+}
+
+/* footer */
+
+footer{
+    height: 82px;
+    background-color: #d7dedc;
+    
+}
+
+footer{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+footer p{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+footer img{
+    padding-top: 20px;
+}
+
+
+
+
+
